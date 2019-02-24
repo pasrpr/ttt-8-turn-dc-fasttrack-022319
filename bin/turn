@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 puts "Please enter 1-9:"
-turn_input = gets
+turn_input = gets.chomp
+if turn_input >=1 && turn_input<=9
+  arr
